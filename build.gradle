@@ -10,6 +10,10 @@ repositories {
     mavenCentral()
 }
 
+application {
+    mainClass = 'com.home.courseplatform.Main'
+}
+
 dependencies {
     // Testing
     testImplementation platform('org.junit:junit-bom:5.10.0')
